@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muqaddas AI Learning Assistant</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="app">
+
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-mark">M</div>
+        <div class="brand-text">
+          <strong>Muqaddas AI Learning Assistant</strong>
+          <span>FlyRank AI Fluency Capstone &middot; by Muqaddas Zaheer Ahmad</span>
+        </div>
+      </div>
+
+      <span class="badge" id="statusBadge">Connecting...</span>
+    </header>
+
+    <main class="messages" id="messages">
+      <div class="welcome" id="welcome">
+        <div class="welcome-mark">M</div>
+
+        <h1>Hi, I'm Muqaddas AI 👋</h1>
+
+        <p>
+          I'm here to help you learn <strong>Artificial Intelligence</strong>,
+          <strong>Machine Learning</strong>, <strong>Python</strong>, and
+          <strong>programming</strong> — one simple step at a time.
+          Ask me to explain something, show you an example, quiz you, or plan your studying.
+        </p>
+
+        <div class="examples">
+          <button class="example-chip" data-prompt="Explain what Machine Learning is, like I'm a complete beginner.">
+            🧠 What is Machine Learning?
+          </button>
+
+          <button class="example-chip" data-prompt="Give me a small beginner example of a Python for loop.">
+            🧩 Show me a Python loop example
+          </button>
+
+          <button class="example-chip" data-prompt="Create 3 beginner practice questions about Python variables.">
+            📝 Quiz me on variables
+          </button>
+
+          <button class="example-chip" data-prompt="Help me build a simple 2-week beginner study plan for learning Python.">
+            🗓️ Make me a study plan
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <form class="composer" id="composerForm">
+      <div class="composer-row">
+        <textarea
+          id="input"
+          rows="1"
+          placeholder="Ask about AI, Machine Learning, Python, or programming..."
+          aria-label="Type your question"
+        ></textarea>
+
+        <button type="submit" class="send-btn" id="sendBtn" aria-label="Send message">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+            <path
+              d="M3 12L21 3L14 21L11 13L3 12Z"
+              stroke="white"
+              stroke-width="1.8"
+              stroke-linejoin="round"
+              stroke-linecap="round"
+            />
+          </svg>
+        </button>
+      </div>
+
+      <p class="hint">
+        Muqaddas AI keeps things simple — step by step, always beginner-friendly.
+      </p>
+    </form>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
