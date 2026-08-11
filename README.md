@@ -1,8 +1,8 @@
 # Muqaddas AI Learning Assistant
 
-A beginner-friendly AI learning assistant for **Artificial Intelligence, Machine Learning, Python, and programming**.
+A beginner-friendly AI learning assistant for Artificial Intelligence, Machine Learning, Python, and programming.
 
-Built by **Muqaddas Zaheer Ahmad** as part of the **FlyRank AI Fluency Capstone**.
+Built by Muqaddas Zaheer Ahmad as part of the FlyRank AI Fluency Capstone.
 
 ## Live Demo
 
